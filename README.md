@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+## आपदः संपदः काले दैवादेवेति निश्चयी। तृप्तः स्वस्थेन्द्रियो नित्यं न वान्छति न शोचति॥
+
+#### [Karma](https://hinduism.stackexchange.com/questions/2399/is-our-destiny-predetermined-if-yes-then-why-do-our-actions-affect-our-karma)
