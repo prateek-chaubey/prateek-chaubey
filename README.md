@@ -16,8 +16,7 @@ Here are some ideas to get you started:
 
 ### [Karma](https://hinduism.stackexchange.com/questions/2399/is-our-destiny-predetermined-if-yes-then-why-do-our-actions-affect-our-karma)
 ---
+
+![Join My Discord](https://discordapp.com/api/guilds/873544368982720593/widget.png?style=banner3)
 <!--
-### Join Our Discord Server
- [![Join our Discord server!](https://invidget.switchblade.xyz/8DsczzxU9E)](http://discord.gg/8DsczzxU9E)
--->
 <Img src="https://sleeping-oars.000webhostapp.com?invite=8DsczzxU9E" >
