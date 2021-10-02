@@ -20,5 +20,5 @@ Here are some ideas to get you started:
 ---
 ### Join Our Discord Server
  [![Join our Discord server!](https://invidget.switchblade.xyz/8DsczzxU9E)](http://discord.gg/8DsczzxU9E)
-<!--
+
 <Img src="https://sleeping-oars.000webhostapp.com?invite=8DsczzxU9E" >
