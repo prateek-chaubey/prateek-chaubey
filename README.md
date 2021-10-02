@@ -1,5 +1,3 @@
-
-
 <!--
 **prateek-chaubey/prateek-chaubey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -18,7 +16,8 @@ Here are some ideas to get you started:
 
 ### [Karma](https://hinduism.stackexchange.com/questions/2399/is-our-destiny-predetermined-if-yes-then-why-do-our-actions-affect-our-karma)
 ---
+<!--
 ### Join Our Discord Server
  [![Join our Discord server!](https://invidget.switchblade.xyz/8DsczzxU9E)](http://discord.gg/8DsczzxU9E)
-
+-->
 <Img src="https://sleeping-oars.000webhostapp.com?invite=8DsczzxU9E" >
