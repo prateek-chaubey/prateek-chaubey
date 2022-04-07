@@ -157,9 +157,7 @@ transform:rotate(10deg) scale(1);
 }
 }
 </style>
-<script type="text/javascript">
-alert("");
-</script>
+
 <div class="container">
 <div class="a1" >
 यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।
@@ -170,7 +168,9 @@ alert("");
 </div><div class="a4" >
 धर्मसंस्थापनार्थाय सम्भवामि युगे युगे ।
 </div>
-
+<script type="text/javascript">
+document.querySelector(".a1").textContent="sjsj";
+</script>
 <br/>
 
 </div>
