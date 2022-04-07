@@ -40,9 +40,10 @@ opacity:0;
 position:absolute;
 padding:10px;
 background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
-animation: rainbow_animation 6s ease-in-out infinite;
 background-size: 400% 100%;
 -webkit-background-clip:text;
+color:transparent;
+animation: rainbow_animation .5s ease-in-out infinite;
 }
 .a1 {
 animation:jw 2s linear ;
@@ -55,70 +56,110 @@ animation-delay:2s;
 animation:jw3 2s linear ;
 animation-delay:4s;
 }
-@keyframes jw3{
+.a4 {
+animation:jw3 2s linear ;
+animation-delay:6s;
+}
+@keyframes jw4{
 0%{
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+color: transparent;  
 opacity:0;
 scale:1;
+background-position: 0% 50%;
 transform:rotate(0deg) scale(1.75);
 }
 50%{
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;  
+color: transparent;  
 opacity:1;
-transform:rotateZ(10deg) scale(1);
+background-position: 100% 50%;
+transform:rotate(0deg) scale(1);
 }
 100%{
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;  
+color: transparent;  
 opacity:0;
-transform:rotateZ(-70deg) scaleZ(1);
+background-position: 0% 50%;
+transform:rotate(5deg) scaleZ(1);
+}
+}
+@keyframes jw3{
+0%{
+-webkit-background-clip: text;
+color: transparent;  
+opacity:0;
+scale:1;
+background-position: 0% 50%;
+transform:rotate(0deg) scale(1.75);
+}
+50%{
+-webkit-background-clip: text;
+color: transparent;  
+opacity:1;
+background-position: 100% 50%;
+transform:rotate(0deg) scale(1);
+}
+100%{
+-webkit-background-clip: text;
+color: transparent;  
+opacity:0;
+background-position: 0% 50%;
+transform:rotate(5deg) scaleZ(1);
 }
 }
 @keyframes jw2{
 0%{
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;  
+color: transparent;  
 opacity:0;
+background-position: 0% 50%;
 transform:rotate(10deg) scale(1);
 }
 50%{
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;  
+color: transparent;  
 opacity:1;
+background-position: 100% 50%;
 transform:rotate(-10deg) scale(1);
 }
 100%{
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+color: transparent;  
 opacity:0;
 scale:1;
+background-position: 0% 50%;
 transform:rotate(0deg) scale(1.75);
 }
 }
 @keyframes jw{
 0%{
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;  
+color: transparent;  
 opacity:0;
+background-position: 0% 50%;
 transform:rotate(45deg) scale(1.75);
 }
 50%{
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+color: transparent;  
 opacity:1;
 scale:1;
+background-position: 100% 50%;
 transform:rotate(0deg) scale(1);
 }
 100%{
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;  
+color: transparent;  
 opacity:0;
+background-position: 0% 50%;
 transform:rotate(10deg) scale(1);
 }
 }
 </style>
+<script type="text/javascript">
+alert("");
+</script>
 <div class="container">
 <div class="a1" >
 यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।
