@@ -20,7 +20,20 @@ position:relative;
 margin-left:4px;
 font-size:25px;
 color:white;
+border-radius:100%;
 text-shadow:0px 0px 3px #f80;
+animation:ani 2s linear infinite;
+}
+@keyframes ani{
+0%{
+box-shadow:0px 0px 200px #f80;
+}
+50%{
+box-shadow:0px 0px 0px #f80;
+}
+100%{
+box-shadow:0px 0px 200px #f80;
+}
 }
 </style>
 
