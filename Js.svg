@@ -32,6 +32,7 @@ display:grid;
 align-items:center;
 justify-content:center;
 height:100%;
+z-index:-9999;
 width:100%;
 }
 .s1,.s2,.s3,.s4,.s5{
@@ -253,7 +254,7 @@ background:#ff0;
 <div class="knoo" >JS<div class="bars" >0.01%<div class="howm" ></div></div></div>
 <div class="knoo" >JAVA<div class="bars" style="border:1px solid #af7219" >0.01%<div class="howm" style="background:#af7219" ></div></div></div>
 <div class="knoo" >PHP<div class="bars" style="border:1px solid #4e5d94" >0.01%<div class="howm" style="background:#4e5d94" ></div></div></div>
-<div class="knoo" >Copy/Paste<div class="bars" style="border:1px solid #4e5d94" >101%<div class="howm" style="width:100%;background:#4e5d94" ></div></div></div>
+<div class="knoo" ><span style="font-size:12px;" >Copy/Paste</span><div class="bars" style="border:1px solid #4e5d94" >101%<div class="howm" style="width:100%;background:#4e5d94" ></div></div></div>
 </div>
 <div class="cirs" >
 <div class="s1" style="--d:100px"></div>
