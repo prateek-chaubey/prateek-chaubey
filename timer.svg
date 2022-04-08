@@ -33,6 +33,7 @@ border-radius:2px;
 position:absolute;
 font-weight:bolder;
 line-height:30px;
+text-align:right;
 animation:ks 1s linear ;
 animation-delay:var(--d);
 -webkit-text-stroke: 1px #0fa;
