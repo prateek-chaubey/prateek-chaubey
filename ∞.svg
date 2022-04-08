@@ -71,12 +71,28 @@ background-color: #cc2a5d;
 animation:ks 13s linear infinite;
 }
 .s5{
+
 box-shadow:0px 0px 10px #0088ff,
 0px 0px 20px #0088ff,
 0px 0px 50px #0088ff,
 0px 0px 80px #0088ff;
 background-color: #0088ff;
+display:grid;
 animation:ks 18s linear infinite;
+}
+.s6{
+height:8px;
+width:8px;
+grid-area:1/1;
+background:trasparent;
+margin:5px;
+position: relative;
+border-radius:50%;
+box-shadow:0px 0px 10px #f00,
+0px 0px 20px #f00;
+background-color: #f00;
+display:grid;
+animation:ks 5s linear infinite;
 }
 @keyframes ks{
 0%{
@@ -162,7 +178,7 @@ text-shadow:0px 0px 5px #0fa,
 <div class="s2" style="--d:150px"></div>
 <div class="s3" style="--d:150px"></div>
 <div class="s4" style="--d:180px"></div>
-<div class="s5" style="--d:230px"></div>
+<div class="s5" style="--d:230px"><div class="s6" style="--d:25px"></div></div>
 </div>
 </div>
 </div>
