@@ -1,0 +1,367 @@
+<svg fill="none"  viewBox="0 0 300 100" width="300" height="100" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="100%" height="100%">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<style>
+*{
+padding:0;
+margin:0;
+outline:0;
+text-overflow:ellipsis;
+}
+.container {
+width: calc(100% - 28px);
+height: 100px;
+background:transparent;
+position:relative;
+margin-left:4px;
+font-size:25px;
+color:white;
+display:flex;
+justify-content:middle;
+align-items:center;
+text-align:left;
+border:1px solid red;
+}
+.cirs{
+height:100%;
+width:50%;
+padding:0;
+}
+.s1{
+height:100px;
+width:100%;
+border-radius:2px;
+position:absolute;
+font-weight:bolder;
+line-height:100px;
+margin-left:10px;
+animation:ks 1s linear ;
+animation-delay:var(--d);
+-webkit-text-stroke: 1px black;
+color:transparent;
+visibility:hidden;
+}
+@keyframes ks{
+0%{
+visibility:visible;
+}
+100%{
+visibility:hidden;
+}
+}
+.txt{
+height:100%;
+line-height:100px;
+}
+</style>
+<div class="container">
+<div class="txt" >ExplosionIn:</div>
+<div class="cirs" >
+
+<div class="s1" style="--d:1s">05:00</div>
+<div class="s1" style="--d:2s">04:59</div>
+<div class="s1" style="--d:3s">04:58</div>
+<div class="s1" style="--d:4s">04:57</div>
+<div class="s1" style="--d:5s">04:56</div>
+<div class="s1" style="--d:6s">04:55</div>
+<div class="s1" style="--d:7s">04:54</div>
+<div class="s1" style="--d:8s">04:53</div>
+<div class="s1" style="--d:9s">04:52</div>
+<div class="s1" style="--d:10s">04:51</div>
+<div class="s1" style="--d:11s">04:50</div>
+<div class="s1" style="--d:12s">04:49</div>
+<div class="s1" style="--d:13s">04:48</div>
+<div class="s1" style="--d:14s">04:47</div>
+<div class="s1" style="--d:15s">04:46</div>
+<div class="s1" style="--d:16s">04:45</div>
+<div class="s1" style="--d:17s">04:44</div>
+<div class="s1" style="--d:18s">04:43</div>
+<div class="s1" style="--d:19s">04:42</div>
+<div class="s1" style="--d:20s">04:41</div>
+<div class="s1" style="--d:21s">04:40</div>
+<div class="s1" style="--d:22s">04:39</div>
+<div class="s1" style="--d:23s">04:38</div>
+<div class="s1" style="--d:24s">04:37</div>
+<div class="s1" style="--d:25s">04:36</div>
+<div class="s1" style="--d:26s">04:35</div>
+<div class="s1" style="--d:27s">04:34</div>
+<div class="s1" style="--d:28s">04:33</div>
+<div class="s1" style="--d:29s">04:32</div>
+<div class="s1" style="--d:30s">04:31</div>
+<div class="s1" style="--d:31s">04:30</div>
+<div class="s1" style="--d:32s">04:29</div>
+<div class="s1" style="--d:33s">04:28</div>
+<div class="s1" style="--d:34s">04:27</div>
+<div class="s1" style="--d:35s">04:26</div>
+<div class="s1" style="--d:36s">04:25</div>
+<div class="s1" style="--d:37s">04:24</div>
+<div class="s1" style="--d:38s">04:23</div>
+<div class="s1" style="--d:39s">04:22</div>
+<div class="s1" style="--d:40s">04:21</div>
+<div class="s1" style="--d:41s">04:20</div>
+<div class="s1" style="--d:42s">04:19</div>
+<div class="s1" style="--d:43s">04:18</div>
+<div class="s1" style="--d:44s">04:17</div>
+<div class="s1" style="--d:45s">04:16</div>
+<div class="s1" style="--d:46s">04:15</div>
+<div class="s1" style="--d:47s">04:14</div>
+<div class="s1" style="--d:48s">04:13</div>
+<div class="s1" style="--d:49s">04:12</div>
+<div class="s1" style="--d:50s">04:11</div>
+<div class="s1" style="--d:51s">04:10</div>
+<div class="s1" style="--d:52s">04:09</div>
+<div class="s1" style="--d:53s">04:08</div>
+<div class="s1" style="--d:54s">04:07</div>
+<div class="s1" style="--d:55s">04:06</div>
+<div class="s1" style="--d:56s">04:05</div>
+<div class="s1" style="--d:57s">04:04</div>
+<div class="s1" style="--d:58s">04:03</div>
+<div class="s1" style="--d:59s">04:02</div>
+<div class="s1" style="--d:60s">04:01</div>
+<div class="s1" style="--d:61s">04:00</div>
+<div class="s1" style="--d:62s">03:59</div>
+<div class="s1" style="--d:63s">03:58</div>
+<div class="s1" style="--d:64s">03:57</div>
+<div class="s1" style="--d:65s">03:56</div>
+<div class="s1" style="--d:66s">03:55</div>
+<div class="s1" style="--d:67s">03:54</div>
+<div class="s1" style="--d:68s">03:53</div>
+<div class="s1" style="--d:69s">03:52</div>
+<div class="s1" style="--d:70s">03:51</div>
+<div class="s1" style="--d:71s">03:50</div>
+<div class="s1" style="--d:72s">03:49</div>
+<div class="s1" style="--d:73s">03:48</div>
+<div class="s1" style="--d:74s">03:47</div>
+<div class="s1" style="--d:75s">03:46</div>
+<div class="s1" style="--d:76s">03:45</div>
+<div class="s1" style="--d:77s">03:44</div>
+<div class="s1" style="--d:78s">03:43</div>
+<div class="s1" style="--d:79s">03:42</div>
+<div class="s1" style="--d:80s">03:41</div>
+<div class="s1" style="--d:81s">03:40</div>
+<div class="s1" style="--d:82s">03:39</div>
+<div class="s1" style="--d:83s">03:38</div>
+<div class="s1" style="--d:84s">03:37</div>
+<div class="s1" style="--d:85s">03:36</div>
+<div class="s1" style="--d:86s">03:35</div>
+<div class="s1" style="--d:87s">03:34</div>
+<div class="s1" style="--d:88s">03:33</div>
+<div class="s1" style="--d:89s">03:32</div>
+<div class="s1" style="--d:90s">03:31</div>
+<div class="s1" style="--d:91s">03:30</div>
+<div class="s1" style="--d:92s">03:29</div>
+<div class="s1" style="--d:93s">03:28</div>
+<div class="s1" style="--d:94s">03:27</div>
+<div class="s1" style="--d:95s">03:26</div>
+<div class="s1" style="--d:96s">03:25</div>
+<div class="s1" style="--d:97s">03:24</div>
+<div class="s1" style="--d:98s">03:23</div>
+<div class="s1" style="--d:99s">03:22</div>
+<div class="s1" style="--d:100s">03:21</div>
+<div class="s1" style="--d:101s">03:20</div>
+<div class="s1" style="--d:102s">03:19</div>
+<div class="s1" style="--d:103s">03:18</div>
+<div class="s1" style="--d:104s">03:17</div>
+<div class="s1" style="--d:105s">03:16</div>
+<div class="s1" style="--d:106s">03:15</div>
+<div class="s1" style="--d:107s">03:14</div>
+<div class="s1" style="--d:108s">03:13</div>
+<div class="s1" style="--d:109s">03:12</div>
+<div class="s1" style="--d:110s">03:11</div>
+<div class="s1" style="--d:111s">03:10</div>
+<div class="s1" style="--d:112s">03:09</div>
+<div class="s1" style="--d:113s">03:08</div>
+<div class="s1" style="--d:114s">03:07</div>
+<div class="s1" style="--d:115s">03:06</div>
+<div class="s1" style="--d:116s">03:05</div>
+<div class="s1" style="--d:117s">03:04</div>
+<div class="s1" style="--d:118s">03:03</div>
+<div class="s1" style="--d:119s">03:02</div>
+<div class="s1" style="--d:120s">03:01</div>
+<div class="s1" style="--d:121s">03:00</div>
+<div class="s1" style="--d:122s">02:59</div>
+<div class="s1" style="--d:123s">02:58</div>
+<div class="s1" style="--d:124s">02:57</div>
+<div class="s1" style="--d:125s">02:56</div>
+<div class="s1" style="--d:126s">02:55</div>
+<div class="s1" style="--d:127s">02:54</div>
+<div class="s1" style="--d:128s">02:53</div>
+<div class="s1" style="--d:129s">02:52</div>
+<div class="s1" style="--d:130s">02:51</div>
+<div class="s1" style="--d:131s">02:50</div>
+<div class="s1" style="--d:132s">02:49</div>
+<div class="s1" style="--d:133s">02:48</div>
+<div class="s1" style="--d:134s">02:47</div>
+<div class="s1" style="--d:135s">02:46</div>
+<div class="s1" style="--d:136s">02:45</div>
+<div class="s1" style="--d:137s">02:44</div>
+<div class="s1" style="--d:138s">02:43</div>
+<div class="s1" style="--d:139s">02:42</div>
+<div class="s1" style="--d:140s">02:41</div>
+<div class="s1" style="--d:141s">02:40</div>
+<div class="s1" style="--d:142s">02:39</div>
+<div class="s1" style="--d:143s">02:38</div>
+<div class="s1" style="--d:144s">02:37</div>
+<div class="s1" style="--d:145s">02:36</div>
+<div class="s1" style="--d:146s">02:35</div>
+<div class="s1" style="--d:147s">02:34</div>
+<div class="s1" style="--d:148s">02:33</div>
+<div class="s1" style="--d:149s">02:32</div>
+<div class="s1" style="--d:150s">02:31</div>
+<div class="s1" style="--d:151s">02:30</div>
+<div class="s1" style="--d:152s">02:29</div>
+<div class="s1" style="--d:153s">02:28</div>
+<div class="s1" style="--d:154s">02:27</div>
+<div class="s1" style="--d:155s">02:26</div>
+<div class="s1" style="--d:156s">02:25</div>
+<div class="s1" style="--d:157s">02:24</div>
+<div class="s1" style="--d:158s">02:23</div>
+<div class="s1" style="--d:159s">02:22</div>
+<div class="s1" style="--d:160s">02:21</div>
+<div class="s1" style="--d:161s">02:20</div>
+<div class="s1" style="--d:162s">02:19</div>
+<div class="s1" style="--d:163s">02:18</div>
+<div class="s1" style="--d:164s">02:17</div>
+<div class="s1" style="--d:165s">02:16</div>
+<div class="s1" style="--d:166s">02:15</div>
+<div class="s1" style="--d:167s">02:14</div>
+<div class="s1" style="--d:168s">02:13</div>
+<div class="s1" style="--d:169s">02:12</div>
+<div class="s1" style="--d:170s">02:11</div>
+<div class="s1" style="--d:171s">02:10</div>
+<div class="s1" style="--d:172s">02:09</div>
+<div class="s1" style="--d:173s">02:08</div>
+<div class="s1" style="--d:174s">02:07</div>
+<div class="s1" style="--d:175s">02:06</div>
+<div class="s1" style="--d:176s">02:05</div>
+<div class="s1" style="--d:177s">02:04</div>
+<div class="s1" style="--d:178s">02:03</div>
+<div class="s1" style="--d:179s">02:02</div>
+<div class="s1" style="--d:180s">02:01</div>
+<div class="s1" style="--d:181s">02:00</div>
+<div class="s1" style="--d:182s">01:59</div>
+<div class="s1" style="--d:183s">01:58</div>
+<div class="s1" style="--d:184s">01:57</div>
+<div class="s1" style="--d:185s">01:56</div>
+<div class="s1" style="--d:186s">01:55</div>
+<div class="s1" style="--d:187s">01:54</div>
+<div class="s1" style="--d:188s">01:53</div>
+<div class="s1" style="--d:189s">01:52</div>
+<div class="s1" style="--d:190s">01:51</div>
+<div class="s1" style="--d:191s">01:50</div>
+<div class="s1" style="--d:192s">01:49</div>
+<div class="s1" style="--d:193s">01:48</div>
+<div class="s1" style="--d:194s">01:47</div>
+<div class="s1" style="--d:195s">01:46</div>
+<div class="s1" style="--d:196s">01:45</div>
+<div class="s1" style="--d:197s">01:44</div>
+<div class="s1" style="--d:198s">01:43</div>
+<div class="s1" style="--d:199s">01:42</div>
+<div class="s1" style="--d:200s">01:41</div>
+<div class="s1" style="--d:201s">01:40</div>
+<div class="s1" style="--d:202s">01:39</div>
+<div class="s1" style="--d:203s">01:38</div>
+<div class="s1" style="--d:204s">01:37</div>
+<div class="s1" style="--d:205s">01:36</div>
+<div class="s1" style="--d:206s">01:35</div>
+<div class="s1" style="--d:207s">01:34</div>
+<div class="s1" style="--d:208s">01:33</div>
+<div class="s1" style="--d:209s">01:32</div>
+<div class="s1" style="--d:210s">01:31</div>
+<div class="s1" style="--d:211s">01:30</div>
+<div class="s1" style="--d:212s">01:29</div>
+<div class="s1" style="--d:213s">01:28</div>
+<div class="s1" style="--d:214s">01:27</div>
+<div class="s1" style="--d:215s">01:26</div>
+<div class="s1" style="--d:216s">01:25</div>
+<div class="s1" style="--d:217s">01:24</div>
+<div class="s1" style="--d:218s">01:23</div>
+<div class="s1" style="--d:219s">01:22</div>
+<div class="s1" style="--d:220s">01:21</div>
+<div class="s1" style="--d:221s">01:20</div>
+<div class="s1" style="--d:222s">01:19</div>
+<div class="s1" style="--d:223s">01:18</div>
+<div class="s1" style="--d:224s">01:17</div>
+<div class="s1" style="--d:225s">01:16</div>
+<div class="s1" style="--d:226s">01:15</div>
+<div class="s1" style="--d:227s">01:14</div>
+<div class="s1" style="--d:228s">01:13</div>
+<div class="s1" style="--d:229s">01:12</div>
+<div class="s1" style="--d:230s">01:11</div>
+<div class="s1" style="--d:231s">01:10</div>
+<div class="s1" style="--d:232s">01:09</div>
+<div class="s1" style="--d:233s">01:08</div>
+<div class="s1" style="--d:234s">01:07</div>
+<div class="s1" style="--d:235s">01:06</div>
+<div class="s1" style="--d:236s">01:05</div>
+<div class="s1" style="--d:237s">01:04</div>
+<div class="s1" style="--d:238s">01:03</div>
+<div class="s1" style="--d:239s">01:02</div>
+<div class="s1" style="--d:240s">01:01</div>
+<div class="s1" style="--d:241s">01:00</div>
+<div class="s1" style="--d:242s">00:59</div>
+<div class="s1" style="--d:243s">00:58</div>
+<div class="s1" style="--d:244s">00:57</div>
+<div class="s1" style="--d:245s">00:56</div>
+<div class="s1" style="--d:246s">00:55</div>
+<div class="s1" style="--d:247s">00:54</div>
+<div class="s1" style="--d:248s">00:53</div>
+<div class="s1" style="--d:249s">00:52</div>
+<div class="s1" style="--d:250s">00:51</div>
+<div class="s1" style="--d:251s">00:50</div>
+<div class="s1" style="--d:252s">00:49</div>
+<div class="s1" style="--d:253s">00:48</div>
+<div class="s1" style="--d:254s">00:47</div>
+<div class="s1" style="--d:255s">00:46</div>
+<div class="s1" style="--d:256s">00:45</div>
+<div class="s1" style="--d:257s">00:44</div>
+<div class="s1" style="--d:258s">00:43</div>
+<div class="s1" style="--d:259s">00:42</div>
+<div class="s1" style="--d:260s">00:41</div>
+<div class="s1" style="--d:261s">00:40</div>
+<div class="s1" style="--d:262s">00:39</div>
+<div class="s1" style="--d:263s">00:38</div>
+<div class="s1" style="--d:264s">00:37</div>
+<div class="s1" style="--d:265s">00:36</div>
+<div class="s1" style="--d:266s">00:35</div>
+<div class="s1" style="--d:267s">00:34</div>
+<div class="s1" style="--d:268s">00:33</div>
+<div class="s1" style="--d:269s">00:32</div>
+<div class="s1" style="--d:270s">00:31</div>
+<div class="s1" style="--d:271s">00:30</div>
+<div class="s1" style="--d:272s">00:29</div>
+<div class="s1" style="--d:273s">00:28</div>
+<div class="s1" style="--d:274s">00:27</div>
+<div class="s1" style="--d:275s">00:26</div>
+<div class="s1" style="--d:276s">00:25</div>
+<div class="s1" style="--d:277s">00:24</div>
+<div class="s1" style="--d:278s">00:23</div>
+<div class="s1" style="--d:279s">00:22</div>
+<div class="s1" style="--d:280s">00:21</div>
+<div class="s1" style="--d:281s">00:20</div>
+<div class="s1" style="--d:282s">00:19</div>
+<div class="s1" style="--d:283s">00:18</div>
+<div class="s1" style="--d:284s">00:17</div>
+<div class="s1" style="--d:285s">00:16</div>
+<div class="s1" style="--d:286s">00:15</div>
+<div class="s1" style="--d:287s">00:14</div>
+<div class="s1" style="--d:288s">00:13</div>
+<div class="s1" style="--d:289s">00:12</div>
+<div class="s1" style="--d:290s">00:11</div>
+<div class="s1" style="--d:291s">00:10</div>
+<div class="s1" style="--d:292s">00:09</div>
+<div class="s1" style="--d:293s">00:08</div>
+<div class="s1" style="--d:294s">00:07</div>
+<div class="s1" style="--d:295s">00:06</div>
+<div class="s1" style="--d:296s">00:05</div>
+<div class="s1" style="--d:297s">00:04</div>
+<div class="s1" style="--d:298s">00:03</div>
+<div class="s1" style="--d:299s">00:02</div>
+<div class="s1" style="--d:300s">00:01</div>
+<div class="s1" style="--d:301s">00:00</div>
+
+</div>
+</div>
+</div>
+</foreignObject>
+</svg>
