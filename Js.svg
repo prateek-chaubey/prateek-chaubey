@@ -1,0 +1,268 @@
+<svg fill="none"  viewBox="0 0 500 700" width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="100%" height="100%">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<style>
+
+*{
+padding:0;
+margin:0;
+outline:0;
+text-overflow:ellipsis;
+}
+body{
+background:black;
+}
+.container {
+margin: 0;
+width: calc(100% - 28px);
+height: 700px;
+background:transparent;
+padding:10px;
+margin-top:5px;
+position:relative;
+margin-left:4px;
+font-size:25px;
+color:white;
+text-align:left;
+}
+.cirs{
+position:fixed;
+top:100px;
+display:grid;
+align-items:center;
+justify-content:center;
+height:100%;
+width:100%;
+}
+.s1,.s2,.s3,.s4,.s5{
+height:8px;
+width:8px;
+grid-area:1/1;
+background:trasparent;
+margin:20px;
+position: relative;
+border-radius:50%;
+margin-left:10px;
+animation:ks 18s linear infinite;
+}
+.s3{
+box-shadow:0px 0px 10px #ffff44,0px 0px 20px #ffff33,0px 0px 50px #ffff22,0px 0px 80px #ffff11,0px 0px 120px #ffff11;
+background-color: #ffff00;
+animation:none;
+}
+.s1{
+box-shadow:0px 0px 10px #00ffaa,
+0px 0px 20px #00ffaa,
+0px 0px 50px #00ffaa,
+0px 0px 80px #00ffaa;
+background-color: #00ffaa;
+animation:ks 6s linear infinite;
+}
+.s2{
+box-shadow:0px 0px 10px #ff8800,
+0px 0px 20px #ff8800,
+0px 0px 50px #ff8800,
+0px 0px 80px #ff8800;
+background-color: #ff8800;
+animation:ks 10s linear infinite;
+}
+.s4{
+box-shadow:0px 0px 10px #cc2a5d,
+0px 0px 20px #cc2a5d,
+0px 0px 50px #cc2a5d,
+0px 0px 80px #cc2a5d;
+background-color: #cc2a5d;
+animation:ks 13s linear infinite;
+}
+.s5{
+
+box-shadow:0px 0px 10px #0088ff,
+0px 0px 20px #0088ff,
+0px 0px 50px #0088ff,
+0px 0px 80px #0088ff;
+background-color: #0088ff;
+display:grid;
+animation:ks 18s linear infinite;
+}
+.s6{
+height:8px;
+width:8px;
+grid-area:1/1;
+background:trasparent;
+margin:5px;
+position: relative;
+border-radius:50%;
+box-shadow:0px 0px 10px #f00,
+0px 0px 20px #f00;
+background-color: #f00;
+display:grid;
+animation:ks 5s linear infinite;
+}
+@keyframes ks{
+0%{
+transform:rotate(0deg)  translate(var(--d)) ;
+}
+100%{
+transform:rotate(360deg) translate(var(--d)) ;
+}
+}
+.nams{
+width:100%;
+text-align:center;
+background:#ff0;
+color:transparent;
+font-size:40px;
+text-shadow:0px 0px 5px #ff0,0px 0px 10px #ff0,0px 0px 15px #ff0,0px 0px 25px #ff0,0px 0px 45px #ff0;
+-webkit-background-clip:text;
+font-family: 'Pacifico', cursive;
+animation:anim 5s ease-in infinite;
+}
+@keyframes anim{
+0%{
+background:#0fa;
+color:transparent;
+text-shadow:0px 0px 5px #0fa,
+0px 0px 10px #0fa,
+0px 0px 15px #0fa;
+-webkit-background-clip:text;
+}
+25%{
+background:#ff0;
+color:transparent;
+text-shadow:0px 0px 5px #ff0,0px 0px 10px #ff0,0px 0px 15px #ff0,0px 0px 25px #ff0,0px 0px 45px #ff0;
+-webkit-background-clip:text;
+}
+50%{
+background:#f80;
+color:transparent;
+text-shadow:0px 0px 5px #f80,
+0px 0px 10px #f80,
+0px 0px 15px #f80;
+-webkit-background-clip:text;
+}
+75%{
+background:#08f;
+color:transparent;
+text-shadow:0px 0px 5px #08f,
+0px 0px 10px #08f,
+0px 0px 15px #08f;
+-webkit-background-clip:text;
+}
+100%{
+background:#0fa;
+color:transparent;
+text-shadow:0px 0px 5px #0fa,
+0px 0px 10px #0fa,
+0px 0px 15px #0fa;
+-webkit-background-clip:text;
+}
+}
+.klangs{
+width:100%;
+height:90%;
+}
+.knl{
+font-family:monospace;
+width:auto;
+padding:5px;
+overflow:hidden;
+position:relative;
+color:transparent;
+-webkit-text-stroke: 1px #f0a;
+text-shadow:0px 0px 10px #f0a;
+}
+.knl:before{
+content:'';
+background:#f0a;
+box-shadow:0px 0px 10px #f0a;
+height:3px;
+width:30px;
+position:absolute;
+bottom:5px;
+left:0;
+animation:animl 5s infinite;
+}
+@keyframes animl{
+0%{
+bottom:5px;
+left:0;
+}
+100%{
+bottom:5px;
+left:280px;
+opacity:0;
+}
+}
+</style>
+<div class="container">
+<div class="nams" >
+<span>P</span>
+<span>r</span>
+<span>a</span>
+<span>t</span>
+<span>e</span>
+<span>e</span>
+<span>k</span>
+<span style="margin-left:20px" ></span>
+<span>C</span>
+<span>h</span>
+<span>a</span>
+<span>u</span>
+<span>b</span>
+<span>e</span>
+<span>y</span>
+</div>
+<br/>
+<div class="klangs" >
+<style type="text/css">
+.knoo{
+width:90%;
+height:30px;
+position:relative;
+display:flex;
+margin-top:30px;
+font-size:20px;
+align-items:center;
+justify-content:middle;
+}
+.bars{
+margin-left:20px;
+height:20px;
+width:80%;
+font-size:12px;
+line-height:20px;
+text-align:right;
+position:absolute;
+right:0;
+padding-right:10px;
+text-align:right;
+border:1px solid #ff0;
+}
+.howm{
+height:100%;
+width:1%;
+position:absolute;
+top:0;
+z-index:-1;
+left:0;
+background:#ff0;
+}
+</style>
+<div class="knl"  >Known Languages</div>
+<br/>
+<div class="knoo" >JS<div class="bars" >0.01%<div class="howm" ></div></div></div>
+<div class="knoo" >JAVA<div class="bars" style="border:1px solid #af7219" >0.01%<div class="howm" style="background:#af7219" ></div></div></div>
+<div class="knoo" >PHP<div class="bars" style="border:1px solid #4e5d94" >0.01%<div class="howm" style="background:#4e5d94" ></div></div></div>
+<div class="knoo" >Copy/Paste<div class="bars" style="border:1px solid #4e5d94" >101%<div class="howm" style="width:100%;background:#4e5d94" ></div></div></div>
+</div>
+<div class="cirs" >
+<div class="s1" style="--d:100px"></div>
+<div class="s2" style="--d:150px"></div>
+<div class="s3" style="--d:150px"></div>
+<div class="s4" style="--d:180px"></div>
+<div class="s5" style="--d:230px"><div class="s6" style="--d:25px"></div></div>
+</div>
+</div>
+</div>
+</foreignObject>
+</svg>
