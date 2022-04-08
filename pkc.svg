@@ -211,10 +211,12 @@ opacity:0;
 <span>y</span>
 </div>
 <br/>
+<br/>
 <div class="klangs" >
 <style type="text/css">
 .knoo{
 width:90%;
+font-family:sans-serif;
 height:30px;
 position:relative;
 display:flex;
@@ -249,7 +251,6 @@ box-shadow:0px 0px 10px #ff0;
 }
 </style>
 <div class="knl"  >Known Languages</div>
-<br/>
 <div class="knoo" >JS<div class="bars" >0.01%<div class="howm" ></div></div></div>
 <div class="knoo" >JAVA<div class="bars" style="border:1px solid #af7219;box-shadow:0px 0px 0px #af7219" >0.01%<div class="howm" style="background:#af7219;box-shadow:0px 0px 30px #af7219" ></div></div></div>
 <div class="knoo" >PHP<div class="bars" style="border:1px solid #4e5d94;box-shadow:0px 0px 0px #4e5d94;" >0.01%<div class="howm" style="background:#4e5d94;box-shadow:0px 0px 30px #4e5d94" ></div></div></div>
