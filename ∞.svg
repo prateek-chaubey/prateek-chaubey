@@ -3,47 +3,7 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
 <style>
 
-@font-face {
-  font-family: 'Pacifico';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6K6MmBp0u-zK4.woff2) format('woff2');
-}
 
-@font-face {
-  font-family: 'Pacifico';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6D6MmBp0u-zK4.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'Pacifico';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6I6MmBp0u-zK4.woff2) format('woff2');
-
-}
-
-@font-face {
-  font-family: 'Pacifico';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6J6MmBp0u-zK4.woff2) format('woff2');
-
-}
-
-@font-face {
-  font-family: 'Pacifico';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
-}
 *{
 padding:0;
 margin:0;
@@ -131,6 +91,7 @@ width:100%;
 text-align:center;
 background:#ff0;
 color:transparent;
+font-size:40px;
 text-shadow:0px 0px 5px #ff0,0px 0px 10px #ff0,0px 0px 15px #ff0,0px 0px 25px #ff0,0px 0px 45px #ff0;
 -webkit-background-clip:text;
 font-family: 'Pacifico', cursive;
@@ -142,9 +103,7 @@ background:#0fa;
 color:transparent;
 text-shadow:0px 0px 5px #0fa,
 0px 0px 10px #0fa,
-0px 0px 15px #0fa,
-0px 0px 25px #0fa,
-0px 0px 45px #0fa;
+0px 0px 15px #0fa;
 -webkit-background-clip:text;
 }
 25%{
@@ -158,9 +117,7 @@ background:#f80;
 color:transparent;
 text-shadow:0px 0px 5px #f80,
 0px 0px 10px #f80,
-0px 0px 15px #f80,
-0px 0px 25px #f80,
-0px 0px 45px #f80;
+0px 0px 15px #f80;
 -webkit-background-clip:text;
 }
 75%{
@@ -168,9 +125,7 @@ background:#08f;
 color:transparent;
 text-shadow:0px 0px 5px #08f,
 0px 0px 10px #08f,
-0px 0px 15px #08f,
-0px 0px 25px #08f,
-0px 0px 45px #08f;
+0px 0px 15px #08f;
 -webkit-background-clip:text;
 }
 100%{
@@ -178,9 +133,7 @@ background:#0fa;
 color:transparent;
 text-shadow:0px 0px 5px #0fa,
 0px 0px 10px #0fa,
-0px 0px 15px #0fa,
-0px 0px 25px #0fa,
-0px 0px 45px #0fa;
+0px 0px 15px #0fa;
 -webkit-background-clip:text;
 }
 }
@@ -215,5 +168,3 @@ text-shadow:0px 0px 5px #0fa,
 </div>
 </foreignObject>
 </svg>
-
-
