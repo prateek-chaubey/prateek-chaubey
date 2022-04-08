@@ -1,4 +1,4 @@
-<svg fill="none"  viewBox="0 0 500 160" width="500" height="160" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none"  viewBox="0 0 500 700" width="500" height="700" xmlns="http://www.w3.org/2000/svg">
 <foreignObject width="100%" height="100%">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <style>
@@ -11,27 +11,86 @@ text-overflow:ellipsis;
 .container {
 margin: 0;
 width: calc(100% - 28px);
-height: 250px;
+height: 700px;
 background:transparent;
 padding:10px;
-color:tranarent;
 margin-top:5px;
 position:relative;
 margin-left:4px;
 font-size:25px;
 color:white;
-text-shadow:0px 0px 3px #f80;
+text-align:left;
+display:grid;
+align-items:center;
+justify-content:center;
+}
+.s1,.s2,.s3,.s4,.s5{
+height:8px;
+width:8px;
+grid-area:1/1;
+background:trasparent;
+margin:20px;
+position: relative;
+border-radius:50%;
+margin-left:10px;
+animation:ks 18s linear infinite;
+}
+.s3{
+box-shadow:0px 0px 10px #ffff44,0px 0px 20px #ffff33,0px 0px 50px #ffff22,0px 0px 80px #ffff11,0px 0px 120px #ffff11;
+background-color: #ffff00;
+animation:none;
+}
+.s1{
+box-shadow:0px 0px 10px #00ffaa,
+0px 0px 20px #00ffaa,
+0px 0px 50px #00ffaa,
+0px 0px 80px #00ffaa,
+0px 0px 120px #ff00aa;
+background-color: #00ffaa;
+animation:ks 6s linear infinite;
+}
+.s2{
+box-shadow:0px 0px 10px #ff8800,
+0px 0px 20px #ff8800,
+0px 0px 50px #ff8800,
+0px 0px 80px #ff8800,
+0px 0px 120px #ff8800;
+background-color: #ff8800;
+animation:ks 10s linear infinite;
+}
+.s4{
+box-shadow:0px 0px 10px #cc2a5d,
+0px 0px 20px #cc2a5d,
+0px 0px 50px #cc2a5d,
+0px 0px 80px #cc2a5d,
+0px 0px 120px #cc2a5d;
+background-color: #cc2a5d;
+animation:ks 13s linear infinite;
+}
+.s5{
+box-shadow:0px 0px 10px #0088ff,
+0px 0px 20px #0088ff,
+0px 0px 50px #0088ff,
+0px 0px 80px #0088ff,
+0px 0px 120px #0088ff;
+background-color: #0088ff;
+animation:ks 18s linear infinite;
+}
+@keyframes ks{
+0%{
+transform:rotate(0deg)  translate(var(--d)) ;
+}
+100%{
+transform:rotate(360deg) translate(var(--d)) ;
+}
 }
 </style>
 <div class="container">
-यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।
-<br/>
-अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ।।
-<br/>
-परित्राणाय साधूनां विनाशाय च दुष्कृताम् ।
-<br/>
-धर्मसंस्थापनार्थाय सम्भवामि युगे युगे ।
-<br/>
+<div class="s1" style="--d:100px"></div>
+<div class="s2" style="--d:150px"></div>
+<div class="s3" style="--d:150px"></div>
+<div class="s4" style="--d:180px"></div>
+<div class="s5" style="--d:230px"></div>
 </div>
 </div>
 </foreignObject>
