@@ -2,6 +2,48 @@
 <foreignObject width="100%" height="100%">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <style>
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6K6MmBp0u-zK4.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6D6MmBp0u-zK4.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6I6MmBp0u-zK4.woff2) format('woff2');
+
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6J6MmBp0u-zK4.woff2) format('woff2');
+
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+}
 *{
 padding:0;
 margin:0;
@@ -20,9 +62,13 @@ margin-left:4px;
 font-size:25px;
 color:white;
 text-align:left;
+}
+.cirs{
 display:grid;
 align-items:center;
 justify-content:center;
+height:100%;
+width:100%;
 }
 .s1,.s2,.s3,.s4,.s5{
 height:8px;
@@ -44,8 +90,7 @@ animation:none;
 box-shadow:0px 0px 10px #00ffaa,
 0px 0px 20px #00ffaa,
 0px 0px 50px #00ffaa,
-0px 0px 80px #00ffaa,
-0px 0px 120px #ff00aa;
+0px 0px 80px #00ffaa;
 background-color: #00ffaa;
 animation:ks 6s linear infinite;
 }
@@ -53,8 +98,7 @@ animation:ks 6s linear infinite;
 box-shadow:0px 0px 10px #ff8800,
 0px 0px 20px #ff8800,
 0px 0px 50px #ff8800,
-0px 0px 80px #ff8800,
-0px 0px 120px #ff8800;
+0px 0px 80px #ff8800;
 background-color: #ff8800;
 animation:ks 10s linear infinite;
 }
@@ -62,8 +106,7 @@ animation:ks 10s linear infinite;
 box-shadow:0px 0px 10px #cc2a5d,
 0px 0px 20px #cc2a5d,
 0px 0px 50px #cc2a5d,
-0px 0px 80px #cc2a5d,
-0px 0px 120px #cc2a5d;
+0px 0px 80px #cc2a5d;
 background-color: #cc2a5d;
 animation:ks 13s linear infinite;
 }
@@ -71,8 +114,7 @@ animation:ks 13s linear infinite;
 box-shadow:0px 0px 10px #0088ff,
 0px 0px 20px #0088ff,
 0px 0px 50px #0088ff,
-0px 0px 80px #0088ff,
-0px 0px 120px #0088ff;
+0px 0px 80px #0088ff;
 background-color: #0088ff;
 animation:ks 18s linear infinite;
 }
@@ -84,8 +126,85 @@ transform:rotate(0deg)  translate(var(--d)) ;
 transform:rotate(360deg) translate(var(--d)) ;
 }
 }
+.nams{
+width:100%;
+text-align:center;
+background:#ff0;
+color:transparent;
+text-shadow:0px 0px 5px #ff0,0px 0px 10px #ff0,0px 0px 15px #ff0,0px 0px 25px #ff0,0px 0px 45px #ff0;
+-webkit-background-clip:text;
+font-family: 'Pacifico', cursive;
+animation:anim 5s ease-in infinite;
+}
+@keyframes anim{
+0%{
+background:#0fa;
+color:transparent;
+text-shadow:0px 0px 5px #0fa,
+0px 0px 10px #0fa,
+0px 0px 15px #0fa,
+0px 0px 25px #0fa,
+0px 0px 45px #0fa;
+-webkit-background-clip:text;
+}
+25%{
+background:#ff0;
+color:transparent;
+text-shadow:0px 0px 5px #ff0,0px 0px 10px #ff0,0px 0px 15px #ff0,0px 0px 25px #ff0,0px 0px 45px #ff0;
+-webkit-background-clip:text;
+}
+50%{
+background:#f80;
+color:transparent;
+text-shadow:0px 0px 5px #f80,
+0px 0px 10px #f80,
+0px 0px 15px #f80,
+0px 0px 25px #f80,
+0px 0px 45px #f80;
+-webkit-background-clip:text;
+}
+75%{
+background:#08f;
+color:transparent;
+text-shadow:0px 0px 5px #08f,
+0px 0px 10px #08f,
+0px 0px 15px #08f,
+0px 0px 25px #08f,
+0px 0px 45px #08f;
+-webkit-background-clip:text;
+}
+100%{
+background:#0fa;
+color:transparent;
+text-shadow:0px 0px 5px #0fa,
+0px 0px 10px #0fa,
+0px 0px 15px #0fa,
+0px 0px 25px #0fa,
+0px 0px 45px #0fa;
+-webkit-background-clip:text;
+}
+}
 </style>
 <div class="container">
+<div class="nams" >
+<span>P</span>
+<span>r</span>
+<span>a</span>
+<span>t</span>
+<span>e</span>
+<span>e</span>
+<span>k</span>
+<span style="margin-left:20px" ></span>
+<span>C</span>
+<span>h</span>
+<span>a</span>
+<span>u</span>
+<span>b</span>
+<span>e</span>
+<span>y</span>
+
+</div>
+<div class="cirs" >
 <div class="s1" style="--d:100px"></div>
 <div class="s2" style="--d:150px"></div>
 <div class="s3" style="--d:150px"></div>
@@ -93,5 +212,8 @@ transform:rotate(360deg) translate(var(--d)) ;
 <div class="s5" style="--d:230px"></div>
 </div>
 </div>
+</div>
 </foreignObject>
 </svg>
+
+
