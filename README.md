@@ -15,8 +15,8 @@ Here are some ideas to get you started:
 ---
 ## आपदः संपदः काले दैवादेवेति निश्चयी। तृप्तः स्वस्थेन्द्रियो नित्यं न वान्छति न शोचति॥
 -->
-<p align="center" ><img src=hk.svg ></p>
-<p align="center" ><img src=∞.svg ></p>
+<p align="center" ><img src=th30ne.svg ></p>
+<p align="center" ><img src=pkc.svg ></p>
 <p align="right" ><img src=timer.svg ></p>
 
 
