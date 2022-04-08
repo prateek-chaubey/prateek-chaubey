@@ -17,8 +17,6 @@ Here are some ideas to get you started:
 -->
 <p align="center" ><img src=hk.svg ></p>
 
-<p align="center" ><img src=∞.svg ></p>
-
 
 
  
