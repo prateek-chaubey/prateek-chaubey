@@ -17,19 +17,12 @@ width: calc(100% - 28px);
 height: 160px;
 background:transparent;
 padding:10px;
-color:tranarent;
 margin-top:5px;
 position:relative;
 margin-left:4px;
 font-size:25px;
 color:white;
 text-align:center;
-background-image: -webkit-gradient(linear, 0 -25%, 100% top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(20%, rgba(255, 255, 255, 0)), color-stop(30%, rgba(0, 0, 0, 0.04)), color-stop(40%, rgba(255, 255, 255, 0.2)), color-stop(60%, rgba(255, 255, 255, 0)), color-stop(65%, rgba(255, 255, 255, 0.2)), color-stop(80%, rgba(0, 0, 0, 0.05)), color-stop(100%, rgba(255, 255, 255, 0)));
-background-size: 200%;
--webkit-animation-name: air;
--webkit-animation-duration: 8s;
--webkit-animation-timing-function: cubic-bezier(0.16, 0.14, 0.82, 0.73);
--webkit-animation-iteration-count: infinite;
 text-shadow:0px 0px 3px #f80;
 }
 
@@ -52,20 +45,6 @@ opacity:.5;
 100%{
 transform:translateX(100%) scale(3);
 opacity:0;
-}
-}
-@keyframes air {
-0% {
-background-position: -200% 0px;
-}
-30% {
-background-position: -60% 5px;
-}
-70% {
-background-position: 70% -5px;
-}
-100% {
-background-position: 200% 0px;
 }
 }
 </style>
