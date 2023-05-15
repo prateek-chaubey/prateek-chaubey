@@ -32,7 +32,7 @@ Here are some ideas to get you started:
 
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" align="center" srcset="pc.svg">
+<source media="(prefers-color-scheme: dark)" align="center" srcset="pkc.svg">
 <source media="(prefers-color-scheme: light)" srcset="blank.svg">
 <img  src="./blank.svg">
 </picture>
