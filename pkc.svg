@@ -1,0 +1,266 @@
+<svg fill="none"  viewBox="0 0 500 800" width="500" height="800" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="100%" height="100%">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<style>
+/*©PRATEEK CHAUBEY*/
+*{
+padding:0;
+margin:0;
+outline:0;
+text-overflow:ellipsis;
+}
+.container {
+margin: 0;
+width: calc(100% - 28px);
+height: 700px;
+background:transparent;
+padding:10px;
+margin-top:5px;
+position:relative;
+margin-left:4px;
+font-size:25px;
+color:white;
+text-align:left;
+}
+.cirs{
+position:fixed;
+top:100px;
+height:100vh;
+width:100vw;
+left:0;
+}
+.s{
+height:8px;
+width:8px;
+box-shadow:0px 0px 10px #0ff,0px 0px 20px #0ff,0px 0px 50px #0ff,0px 0px 80px #0ff,0px 0px 120px #0ff;
+background: radial-gradient(circle ,#0fa, rgba(0,200,150,.5),rgba(0,200,150,.1));
+opacity:0;
+margin:20px;
+position: relative;
+border-radius:50%;
+margin-left:10px;
+animation:ks 18s linear infinite;
+animation-delay:var(--d);
+animation-duration:var(--a);
+}
+
+@keyframes ks{
+0%{
+opacity:1;
+top:-100vh;
+left:var(--l);
+}
+25%{
+height:3px;
+width:3px;
+}
+50%{
+height:8px;
+width:8px;
+}
+75%{
+height:3px;
+width:3px;
+}
+100%{
+top:100vh;
+left:var(--l);
+opacity:1;
+}
+}
+.nams{
+width:100%;
+text-align:center;
+background:#ff0;
+color:transparent;
+font-size:40px;
+text-shadow:0px 0px 5px #ff0,0px 0px 10px #ff0,0px 0px 15px #ff0,0px 0px 25px #ff0,0px 0px 45px #ff0;
+-webkit-background-clip:text;
+font-family: 'Pacifico', cursive;
+animation:anim 5s ease-in infinite;
+}
+@keyframes anim{
+0%{
+background:#0fa;
+color:transparent;
+text-shadow:0px 0px 5px #0fa,
+0px 0px 10px #0fa,
+0px 0px 15px #0fa;
+-webkit-background-clip:text;
+}
+25%{
+background:#ff0;
+color:transparent;
+text-shadow:0px 0px 5px #ff0,0px 0px 10px #ff0,0px 0px 15px #ff0,0px 0px 25px #ff0,0px 0px 45px #ff0;
+-webkit-background-clip:text;
+}
+50%{
+background:#f80;
+color:transparent;
+text-shadow:0px 0px 5px #f80,
+0px 0px 10px #f80,
+0px 0px 15px #f80;
+-webkit-background-clip:text;
+}
+75%{
+background:#08f;
+color:transparent;
+text-shadow:0px 0px 5px #08f,
+0px 0px 10px #08f,
+0px 0px 15px #08f;
+-webkit-background-clip:text;
+}
+100%{
+background:#0fa;
+color:transparent;
+text-shadow:0px 0px 5px #0fa,
+0px 0px 10px #0fa,
+0px 0px 15px #0fa;
+-webkit-background-clip:text;
+}
+}
+.klangs{
+width:100%;
+height:90%;
+}
+.knl{
+font-family:monospace;
+width:auto;
+padding:5px;
+overflow:hidden;
+position:relative;
+color:transparent;
+-webkit-text-stroke: 1px #f0a;
+text-shadow:0px 0px 10px #f0a;
+}
+.knl:before{
+content:'';
+background:#f0a;
+box-shadow:0px 0px 10px #f0a;
+height:3px;
+width:30px;
+position:absolute;
+bottom:5px;
+left:0;
+animation:animl 5s infinite;
+}
+@keyframes animl{
+0%{
+bottom:5px;
+left:0;
+}
+100%{
+bottom:5px;
+left:280px;
+opacity:0;
+}
+}
+</style>
+<div class="container">
+<div class="nams" >
+<span>P</span>
+<span>r</span>
+<span>a</span>
+<span>t</span>
+<span>e</span>
+<span>e</span>
+<span>k</span>
+<span style="margin-left:20px" ></span>
+<span>C</span>
+<span>h</span>
+<span>a</span>
+<span>u</span>
+<span>b</span>
+<span>e</span>
+<span>y</span>
+</div>
+<br/>
+<br/>
+<div class="klangs" >
+<style type="text/css">
+.knoo{
+width:90%;
+font-family:sans-serif;
+height:30px;
+position:relative;
+display:flex;
+margin-top:30px;
+font-size:20px;
+align-items:center;
+justify-content:middle;
+}
+.bars{
+margin-left:20px;
+height:20px;
+width:80%;
+font-size:12px;
+line-height:20px;
+text-align:right;
+position:absolute;
+right:0;
+padding-right:10px;
+text-align:right;
+border:1px solid var(--c);
+
+}
+.howm{
+height:100%;
+width:1%;
+position:absolute;
+top:0;
+z-index:-1;
+left:0;
+background:var(--c);
+box-shadow:0px 0px 10px var(--c);
+}
+</style>
+<div class="knl"  >Known Languages</div>
+<div class="knoo" >JS<div class="bars" style="--c:#ff0"  >0.01%<div class="howm" style="--c:#ff0" ></div></div></div>
+<div class="knoo" >TS<div class="bars" style="--c:#2b7489"  >0.01%<div class="howm" style="--c:#2b7489"  ></div></div></div>
+<div class="knoo" >JAVA<div class="bars" style="--c:#af7219"  >0.01%<div class="howm"  style="--c:#af7219" ></div></div></div>
+<div class="knoo" >PHP<div class="bars" style="--c:#4e5d94" >0.01%<div class="howm"  style="--c:#4e5d94"  ></div></div></div>
+<div class="knoo" >HTML<div class="bars" style="--c:#e44b23"  >0.01%<div class="howm"  style="--c:#e44b23" ></div></div></div>
+<div class="knoo" >CSS<div class="bars"  style="--c:#563d7c" >0.01%<div class="howm" style="--c:#563d7c"  ></div></div></div>
+<div class="knoo" >Python<div class="bars"  style="--c:#3572A5" >0.01%<div class="howm" style="--c:#3572A5"  ></div></div></div>
+
+
+
+<div class="knoo" ><span style="font-size:12px;" >Copy/Paste</span><div class="bars" style="border:1px solid #0fa;color:black;box-shadow:0px 0px 0px #0fa;" >101%<div class="howm" style="width:101%;background:#0fa;box-shadow:0px 0px 10px #0fa;" ></div></div></div>
+</div>
+<div class="cirs" >
+<div class="s" style="--d:4s;--l:158vw;--a:30s"></div>
+<div class="s" style="--d:0s;--l:35vw;--a:27s"></div>
+<div class="s" style="--d:4s;--l:166vw;--a:30s"></div>
+<div class="s" style="--d:2s;--l:175vw;--a:34s"></div>
+<div class="s" style="--d:1s;--l:108vw;--a:18s"></div>
+<div class="s" style="--d:1s;--l:40vw;--a:13s"></div>
+<div class="s" style="--d:0s;--l:168vw;--a:35s"></div>
+<div class="s" style="--d:4s;--l:168vw;--a:25s"></div>
+<div class="s" style="--d:3s;--l:121vw;--a:35s"></div>
+<div class="s" style="--d:0s;--l:41vw;--a:28s"></div>
+<div class="s" style="--d:4s;--l:163vw;--a:32s"></div>
+<div class="s" style="--d:0s;--l:80vw;--a:23s"></div>
+<div class="s" style="--d:3s;--l:174vw;--a:25s"></div>
+<div class="s" style="--d:2s;--l:1vw;--a:22s"></div>
+<div class="s" style="--d:0s;--l:62vw;--a:34s"></div>
+<div class="s" style="--d:3s;--l:101vw;--a:29s"></div>
+<div class="s" style="--d:4s;--l:162vw;--a:15s"></div>
+<div class="s" style="--d:2s;--l:109vw;--a:13s"></div>
+<div class="s" style="--d:4s;--l:134vw;--a:16s"></div>
+<div class="s" style="--d:4s;--l:196vw;--a:20s"></div>
+<div class="s" style="--d:4s;--l:162vw;--a:35s"></div>
+<div class="s" style="--d:1s;--l:111vw;--a:12s"></div>
+<div class="s" style="--d:2s;--l:47vw;--a:30s"></div>
+<div class="s" style="--d:1s;--l:83vw;--a:34s"></div>
+<div class="s" style="--d:1s;--l:117vw;--a:15s"></div>
+<div class="s" style="--d:3s;--l:150vw;--a:20s"></div>
+<div class="s" style="--d:1s;--l:25vw;--a:31s"></div>
+<div class="s" style="--d:2s;--l:133vw;--a:18s"></div>
+<div class="s" style="--d:1s;--l:2vw;--a:13s"></div>
+<div class="s" style="--d:0s;--l:178vw;--a:30s"></div>
+
+</div>
+</div>
+</div>
+</foreignObject>
+</svg>
